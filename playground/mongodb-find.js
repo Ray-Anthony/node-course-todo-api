@@ -28,6 +28,5 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, client) => {
         console.log('No documents found', err);
     });
 
-
     // client.close();
 });
